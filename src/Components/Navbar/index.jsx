@@ -49,14 +49,11 @@ export default function Navbar() {
             )}
             {!isMobile && (
               <>
-                <Button href="/" color="inherit">
+                <Button href="#" color="inherit">
                   Home
                 </Button>
-                <Button href="/products" color="inherit">
-                  Products
-                </Button>
-                <Button href="/about" color="inherit">
-                  About
+                <Button href="#coffee" color="inherit">
+                  Coffee
                 </Button>
               </>
             )}
